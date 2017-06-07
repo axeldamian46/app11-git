@@ -1,0 +1,629 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>aplicacion que muestra la importancia de mundo</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<div>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</div>
+
+</head> 
+<body onLoad="MM_preloadImages('imagenes/natu2.png','imagenes/tiger.png','imagenes/DIVERSIDAD_-BIOLOGICA.PNG','imagenes/peli.png','imagenes/ecoterestre.png','imagenes/recursos-naturales-800.png','imagenes/natural.png','imagenes/consiencia ecologica.png','imagenes/Plantoarbol.png')">
+
+<div data-role="page" id="Principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> Aplicacion 10</h1>
+   <h1> Planeta Tierra </h1>
+   </div>
+   <div>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/bidiversida.png" alt="bidiversida" title="bidiversida" id="wows1_0"/></li>
+		<li><img src="data1/images/diadelatierra_006.png" alt="dia-de-la-tierra_006" title="dia-de-la-tierra_006" id="wows1_1"/></li>
+		<li><img src="data1/images/diamundialdelatierra.png" alt="dia-mundial-de-la-tierra" title="dia-mundial-de-la-tierra" id="wows1_2"/></li>
+		<li><img src="data1/images/ecologia.png" alt="ecologia" title="ecologia" id="wows1_3"/></li>
+		<li><img src="data1/images/ecosistemas.png" alt="ecosistemas" title="ecosistemas" id="wows1_4"/></li>
+		<li><img src="data1/images/natural.png" alt="natural" title="natural" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/tierra.png" alt="image slider" title="tierra" id="wows1_6"/></a></li>
+		<li><img src="data1/images/tierra2.png" alt="tierra2" title="tierra2" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="bidiversida"><span><img src="data1/tooltips/bidiversida.png" alt="bidiversida"/>1</span></a>
+		<a href="#" title="dia-de-la-tierra_006"><span><img src="data1/tooltips/diadelatierra_006.png" alt="dia-de-la-tierra_006"/>2</span></a>
+		<a href="#" title="dia-mundial-de-la-tierra"><span><img src="data1/tooltips/diamundialdelatierra.png" alt="dia-mundial-de-la-tierra"/>3</span></a>
+		<a href="#" title="ecologia"><span><img src="data1/tooltips/ecologia.png" alt="ecologia"/>4</span></a>
+		<a href="#" title="ecosistemas"><span><img src="data1/tooltips/ecosistemas.png" alt="ecosistemas"/>5</span></a>
+		<a href="#" title="natural"><span><img src="data1/tooltips/natural.png" alt="natural"/>6</span></a>
+		<a href="#" title="tierra"><span><img src="data1/tooltips/tierra.png" alt="tierra"/>7</span></a>
+		<a href="#" title="tierra2"><span><img src="data1/tooltips/tierra2.png" alt="tierra2"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+         <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Dia Mundian De La Tierra</h2>
+     
+            <p>Se muestra como es?</p>
+         </a>
+       </li>
+          <li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Dia Internacional De La Biodiversida</h2>
+            <p>Se muestra la naturaleza</p>
+         </a> 
+       </li>
+          <li class="ui-first-child ui-last-child">
+         <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Conciencia Ecologica</h2>
+            <p>se muestra lo ecologico</p>
+         </a>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Que nos Brinda el Planeta Tierra</h2>
+            <p>se muestran los recursos</p>
+         </a>
+          <li class="ui-first-child ui-last-child">
+         <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Para Mas Informacion</h2>
+            <p>se muestran links, datos y Mas</p>
+         </a>
+        </li>
+        </ul>
+      </div>
+  
+                  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                  <h4>Cuidemos al planeta</h4>
+                 <img src="res/android/mdpi.png" width="56" height="46">
+                <h4>Axel Damian Romero 4E</h4>
+               </div>
+            </div>
+     
+     
+      <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+            <h1>Cuidemos al Planeta</h1>
+           </div>
+          <div data-role="content" align="center">                  
+            <div>
+            <img src="imagenes/diamunditi.png" width="300" height="300">
+<h2>22 de Abril - Día Mundial de la Tierra </h2>
+              </div>
+              </div>
+               <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+     <a href="https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Tierra" target="_self" data-role="button" id="beep">
+      <h2>Día Internacional de</h2>
+      <h2> la Madre Tierra 22 de abril</h2>
+     
+      </a>
+    </li>
+   </ul>
+   
+   
+    <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Madre Tierra</h1>
+       <div>
+       <center>
+       <p>Se Muestran Imagenes</p></center>
+       <br>
+     </div>
+     <div>
+     <center>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image101','','imagenes/natural.png',1)"><img src="imagenes/dia_internacional_de_la_tierra55.png" width="300" height="300" id="Image101"></a></p>
+      </center>
+       </div>
+    </div>
+    </div>
+    
+    
+<p>El 22 de abril de cada año se celebra el nacimiento del movimiento ambientalista moderno, el cual se inició en 1970 cuando 20 millones de norteamericanos tomaron las calles, los parques y los auditorios para manifestarse por un ambiente saludable y sustentable
+El Día de la Tierra de 1970 logró una coincidencia política que parecía imposible. Ese día condujo a la creación de la Agencia de Protección al Medio Ambiente de Estados Unidos y a la aprobación de leyes relacionadas con el aire limpio, el agua limpia y la conservación de especies en peligro de extinci&aocute;n. A partir de entonces, cada año en esta fecha, el mundo entero reflexiona y se moviliza por una Tierra mejor
+Hasta este siglo pocos pensaron que los seres humanos, viviendo en una extensión de tierra aparentemente sin límites y con agua abundante, podrían causar daños irreparables al medio ambiente. Sin embargo hoy los gobiernos y la gente en general en todo el mundo luchan con la erosión costera, los derrames de petróleo y la contaminación del agua potable, en tanto que cuestiones como el crecimiento de la población, la deforestación, la lluvia ácida y la posibilidad de rápidos cambios climáticos significan decisiones difíciles para el futuro.
+En 1975 un grupo internacional de estudio reunido en Belgrado, Yugoslavia, propuso un marco de referencia mundial para la educación ambiental, el cual se llamó la "Carta de Belgrado". Esta Carta afirma que la meta de la educación ambiental es hacer que la población mundial se preocupe por el medio ambiente y tenga el conocimiento y la dedicación que la capacite para buscar soluciones a los problemas actuales y prevenir problemas nuevos</p>
+         <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2> Medio Ambiente</h2>
+            <p></p>
+         </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2> Dia de La Naturaleza</h2>
+            <p></p>
+         </a>
+        
+        </li>
+        </ul>
+        
+        
+          
+           <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                  <h4>Cuidemos al planeta</h4>
+                 <img src="res/android/mdpi.png" width="56" height="46">
+                <h4>Axel Damian Romero 4E</h4>
+            </div>
+          </div>
+          
+          
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Ayudemos </h1>
+               <h1>al planeta</h1>
+              </div>
+              <div>
+              
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/chimpance.png" alt="chimpance" title="chimpance" id="wows2_0"/></li>
+		<li><img src="data2/images/biodiver.png" alt="biodiver" title="biodiver" id="wows2_1"/></li>
+		<li><img src="data2/images/biodiversidad600x399.png" alt="biodiversidad-600x399" title="biodiversidad-600x399" id="wows2_2"/></li>
+		<li><img src="data2/images/thinkstockphotos.png" alt="ThinkstockPhotos" title="ThinkstockPhotos" id="wows2_3"/></li>
+		<li><img src="data2/images/perico.png" alt="perico" title="perico" id="wows2_4"/></li>
+		<li><img src="data2/images/010vida_silvestre_1.png" alt="010vida_silvestre_1" title="010vida_silvestre_1" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/importanciadelabiodiversidad.png" alt="wowslideshow" title="Importancia-de-la-biodiversidad" id="wows2_6"/></a></li>
+		<li><img src="data2/images/tigere.png" alt="tigere" title="tigere" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="chimpance"><span><img src="data2/tooltips/chimpance.png" alt="chimpance"/>1</span></a>
+		<a href="#" title="biodiver"><span><img src="data2/tooltips/biodiver.png" alt="biodiver"/>2</span></a>
+		<a href="#" title="biodiversidad-600x399"><span><img src="data2/tooltips/biodiversidad600x399.png" alt="biodiversidad-600x399"/>3</span></a>
+		<a href="#" title="ThinkstockPhotos"><span><img src="data2/tooltips/thinkstockphotos.png" alt="ThinkstockPhotos"/>4</span></a>
+		<a href="#" title="perico"><span><img src="data2/tooltips/perico.png" alt="perico"/>5</span></a>
+		<a href="#" title="010vida_silvestre_1"><span><img src="data2/tooltips/010vida_silvestre_1.png" alt="010vida_silvestre_1"/>6</span></a>
+		<a href="#" title="Importancia-de-la-biodiversidad"><span><img src="data2/tooltips/importanciadelabiodiversidad.png" alt="Importancia-de-la-biodiversidad"/>7</span></a>
+		<a href="#" title="tigere"><span><img src="data2/tooltips/tigere.png" alt="tigere"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+
+              </div>
+             <div data-role="content" align="center">
+           <div>
+              <h2></h2></div>
+           </div>
+           
+           <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Biodiversida</h1>
+       <div>
+       <center>
+       <p>Se Muestran Imagenes</p></center>
+       <br>
+     </div>
+     <div>
+     <center>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image47','','imagenes/DIVERSIDAD_-BIOLOGICA.PNG',1)"><img src="imagenes/biodi.png" width="302" height="326" id="Image47"></a></p>
+      </center>
+       </div>
+    </div>
+    
+   
+     <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+     <a href="https://es.wikipedia.org/wiki/Biodiversidad" target="_self"  data-role="button" id="beep">
+      <h2>Mas Informacion</h2>
+      <h2>de la Biodiversidad</h2>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="https://es.wikipedia.org/wiki/Diversidad_ecol%C3%B3gica" target="_self"  data-role="button" id="vibrar">
+       <h2>Mas Informacion</h2>
+      <h2>de la Diversidad</h2>
+       </a>
+    </li>
+   </ul>
+    
+    <h3>Día Internacional de la Diversidad Biológica 
+22 de mayo
+</h3>
+    <p>Biodiversidad y turismo sostenible
+La diversidad de especies, ecosistemas y paisajes atrae al turismo y fomenta el crecimiento económico. A su vez, un sector turístico bien gestionado contribuye de manera significativa a proteger la flora y la fauna, incluso a aumentar las poblaciones de determinadas especies claves, además de concienciar acerca del valor de la biodiversidad a través de los ingresos que genera el turismo.
+
+La celebración del Día Internacional para la Diversidad Biológica nos brinda la oportunidad de resaltar los beneficios que el turismo sostenible tiene para el crecimiento económico, así como para la conservación y el uso sostenible de la biodiversidad.
+
+Este vínculo entre biodiversidad y turismo sostenible coincide con la declaración de 2017 como el Año Internacional del Turismo Sostenible para el Desarrollo.
+
+¿Por qué un Día Internacional para la Diversidad Biológica?
+Si bien cada vez somos más conscientes de que la diversidad biológica en un bien mundial de gran valor para las generaciones presentes y futuras, el número de especies disminuye a un gran ritmo debido a la actividad humana.
+
+La Convenio sobre la Diversidad Biológica Documento PDF es el instrumento internacional para «la conservación de la diversidad biológica, la utilización sostenible de sus componentes y la participación justa y equitativa en los beneficios que se deriven de la utilización de los recursos genéticos», que ha sido ratificado por 196 países.
+
+Dada la importancia de la educación y la conciencia públicas para la aplicación del Convenio a todos los niveles, la Asamblea General proclamó el 22 de mayo, fecha de la aprobación del texto, Día Internacional de la Diversidad Biológica, mediante la resolución 55/201 Documento PDF de 20 de diciembre de 2000</p>
+   </div>
+   
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2> Diversidad Biologica</h2>
+            <p></p>
+         </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2> Dia de La Naturaleza</h2>
+            <p></p>
+         </a>
+        
+        </li>
+        </ul>
+        
+   
+   
+   
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                  <h4>Cuidemos al planeta</h4>
+                 <img src="res/android/mdpi.png" width="56" height="46">
+                <h4>Axel Damian Romero 4E</h4>
+            </div>
+          </div>
+             
+             
+           
+                   
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Conciencia</h1>
+                  <h1>Ecologica</h1>
+                </div>
+
+                <div data-role="content" align="center">
+                      
+                      
+                      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Usa las TRES "R"</h1>
+       <div>
+       <p>Se Muestran Imagenes</p>
+       <br>
+     </div>
+     <div>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image111','','imagenes/consiencia ecologica.png',1)"><img src="imagenes/conciencia-ecologiaca-salud-taoista.png" width="320" height="320" id="Image111"></a></p>
+       </div>
+    </div>
+   </div>
+
+<p>Hoy en día, la mayoría de la gente, si no tiene una verdadera conciencia ecológica, por lo menos conoce los daños que el ser humano causa en la atmósfera y el medio ambiente. Si bien la palabra Ecología fue inventada en 1866 por el alemán Ernst Haeckel , el fomento de una conciencia ecológica global no apareció de la nada, sino que es el resultado de un largo proceso de modificación de la visión del mundo sobre la naturaleza, que nació en las décadas 1960-1970.
+<h3>¿Qué es la conciencia ecológica?</h3>
+Se trata de la idea de proteger los espacios naturales, que estos sean un valor fundamental para la vida y que sea el ser humano el que se comprometa a protegerlos, porque es este el responsable de los daños causados en los ecosistemas. Dicho así, la existencia de tal conciencia parece natural. Pero esta conciencia apareció en un contexto global preciso, esto es, en los países desarrollados de la OCDE (Organización para la Cooperación y el Desarrollo Económicos). Esto explica que la ecología se transformara en un asunto de debate y de reflexión internacional en la sociedad civil y en las esferas políticas</p>
+                      
+                      
+         <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                 <h4>Cuidemos al planeta</h4>
+                 <img src="res/android/mdpi.png" width="56" height="46">
+                <h4>Axel Damian Romero 4E</h4>
+            </div>
+          </div>
+          </div>
+               
+      
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Importancia del medio ambiente</h1>
+                </div>
+                <div data-role="content" align="center">
+                   <div>
+                       <h2></h2></div>
+                      </div>
+                      
+                      
+                      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Natutareza</h1>
+       <div>
+
+       <center>
+       <p>somo verdes</p>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','imagenes/natu2.png',1)"><img src="imagenes/natu.png" width="305" height="165" id="Image40"></a>
+       </center>
+       <br>
+     </div>
+
+     <div>
+      <p></p>
+       </div>
+    </div>
+   </div><center>
+   <h4>Dia Del Medio Ambiente</h4>
+   
+            <p>El 15 de diciembre de 1972, la Asamblea General de la ONU, en la resolución número 2994 conseguida en el 27° periodo de sesiones, designó el 5 de junio Día Mundial del Medio Ambiente, para conmemorar la inauguración de la Conferencia de Estocolmo sobre el Medio Humano, concientizando a la opinión pública de la necesidad de mejorar y preservar el medio ambiente.15
+El Día Mundial del Medio Ambiente se conmemora todos los años en más de 100 países. Es motivo de inspiración para actividades políticas y comunitarias conducidas a renovar su compromiso con la protección del medio ambiente. Las actividades tienen como finalidad sensibilizar las situaciones ambientales, propiciando que los individuos sean elementos activos de un desarrollo sostenible, sustentable y equitativo con la finalidad de que la humanidad asegure un futuro más próspero, valiéndose para ello de actividades muy diversas que van desde desfiles callejeros, paseos en bicicleta, conciertos ecológicos, plantación de árboles, campañas de reciclado y limpieza, pasando por seminarios, mesas redondas, llegando hasta la firma o ratificación de convenios internacionales. Los detalles sobre las actividades previstas para conmemorar este día se publican, y se notifica qué es lo que hicieron en todo el mundo para celebrarlo.16
+Los más importantes actos de conmemoración del Día Mundial del Medio Ambiente tienen verificativo en la ciudad de Shenzhen, perteneciente a la República Popular China.17<p>
+</p>
+                      
+                      
+         <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                 <h4>Cuidemos al planeta</h4>
+                 <img src="res/android/mdpi.png" width="56" height="46">
+                <h4>Axel Damian Romero 4E</h4>
+            </div>
+          </div>
+          
+          
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Naturaleza</h1>
+                  
+                </div>
+                <div data-role="content" align="center">
+                      
+                      
+                      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Dia Mundial De La Naturaleza</h1>
+       <div>
+       <p>Se Muetra la imagen</p>
+       <br>
+     </div>
+     <div>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image43','','imagenes/tiger.png',1)"><img src="imagenes/naturaleza15.png" width="300" height="300" id="Image43"></a></p>
+       </div>
+    </div>
+   </div>
+   <h3>Dia Mundial</h3>
+  <p> El 20 de diciembre de 2013, la Asamblea General de la ONU, en su 68º periodo de sesiones, decidió proclamar el 3 de marzo como el Día Mundial de la Naturaleza, con el objetivo de concientizar acerca del valor de la fauna y la flora salvajes. La fecha elegida marca el aniversario de la aprobación en 1973 de la Convención sobre el Comercio Internacional de Especies Amenazadas de Fauna y Flora Silvestres (CITES, en sus siglas en inglés), la cual juega un destacado papel en la protección de las especies frente al comercio internacional.[1] Previamente, el 3 de marzo había sido designado como Día Mundial de la Naturaleza en una resolución[2] de la Conferencia de las Partes en la CITES, en su 16.ª reunión celebrada en Bangkok del 3 al 14 de marzo de 2013. La resolución, copatrocinada por el Reino Unido y Tailandia, informaba de las conclusiones de la reunión a la Asamblea General de la ONU.
+  El Día Mundial de la Naturaleza nos brinda la ocasión de celebrar la belleza y la variedad de la flora y la fauna salvajes, así como de crear conciencia acerca de la multitud de beneficios que la conservación de estas formas de vida tiene para la humanidad.
+
+La celebración de este día también nos recuerda la necesidad urgente de combatir los delitos contra la naturaleza, los cuales acarrean consecuencias de gran alcance en el ámbito económico, medioambiental y social
+Además de su valor intrínseco, la fauna y la flora salvajes contribuyen a los aspectos ecológicos, genéticos, sociales, económicos, científicos, educativos, culturales, recreativos y estéticos del desarrollo sostenible y del bienestar de los seres humanos. Por estas razones, se invita a los Estados miembros, a la ONU y a los organismos internacionales, a las organizaciones no gubernamentales, a la sociedad civil y todas las personas a observar y a participar en este día de celebración mundial de la naturaleza<p>
+                      
+                      
+         <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                 <h4>Cuidemos al planeta</h4>
+                 <img src="res/android/mdpi.png" width="56" height="46">
+                <h4>Axel Damian Romero 4E</h4>
+            </div>
+          </div>
+          </div>
+          
+          
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Biodiversida</h1>
+                  <h1></h1>
+                </div>
+                <div data-role="content" align="center">
+                      
+                      
+                      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Distintas Especies</h1>
+       <div>
+       <p>Se Muestran las imagenes</p>
+       <br>
+     </div>
+     <div>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/peli.png',1)"><img src="imagenes/image3.png" width="273" height="285" id="Image50"></a></p>
+       </div>
+    </div>
+   </div>
+   <center>
+   <h3>Diversida Biologica</h3>
+   <p>La biodiversidad o diversidad biológica es, según el Convenio Internacional sobre la Diversidad Biológica, el término por el que se hace referencia a la amplia variedad de seres vivos sobre la Tierra y los patrones naturales que la conforman, resultado de miles de millones de años de evolución según procesos naturales y también de la influencia creciente de las actividades del ser humano. La biodiversidad comprende igualmente la variedad de ecosistemas y las diferencias genéticas dentro de cada especie que permiten la combinación de múltiples formas de vida, y cuyas mutuas interacciones con el resto del entorno fundamentan el sustento de la vida sobre el mundo.
+
+El término «biodiversidad» es un calco del inglés «biodiversity». Este término, a su vez, es la contracción de la expresión «biological diversity» que se utilizó por primera vez en octubre de 1986 como título de una conferencia sobre el tema, el National Forum on BioDiversity, convocada por Walter G. Rosen, a quien se le atribuye la idea de la palabra.1
+
+La Cumbre de la Tierra celebrada por Naciones Unidas en Río de Janeiro en 1992 reconoció la necesidad mundial de conciliar la preservación futura de la biodiversidad con el progreso humano según criterios de sostenibilidad o sustentabilidad promulgados en el Convenio internacional sobre la Diversidad Biológica que fue aprobado en Nairobi el 22 de mayo de 1994, fecha posteriormente declarada por la Asamblea General de la ONU como Día Internacional de la Biodiversidad. Con esta misma intención, el año 2010 fue declarado Año Internacional de la Diversidad Biológica por la 61.ª sesión de la Asamblea General de las Naciones Unidas en 2006, coincidiendo con la fecha del Objetivo Biodiversidad 2010.2
+
+En el año 1994, la Asamblea de la Organización de las Naciones Unidas declaró el 22 de mayo como Día Mundial de la Diversidad Biológica</p>
+                      
+               </center>       
+         <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                 <h4>Cuidemos al planeta</h4>
+                 <img src="res/android/mdpi.png" width="56" height="46">
+                <h4>Axel Damian Romero 4E</h4>
+            </div>
+          </div>
+          </div>
+          
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Ecosistemas</h1>
+                  <h1>Hay Distintos ecosistemas</h1>
+                </div>
+                <div data-role="content" align="center">
+                      
+                      
+                      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Ecosistema Terrestre</h1>
+       <div>
+       <p>Se Muestran las Imagenes</p>
+       <br>
+     </div>
+     <div>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image60','','imagenes/ecoterestre.png',1)"><img src="imagenes/Ecosistema-Terrestre-400x300.png" width="400" height="300" id="Image60"></a></p>
+       </div>
+    </div>
+   </div>
+  <h3> Ecosistemas</h3>
+  <p>El ecosistema es el conjunto de especies de un área determinada que interactúan entre ellas y con su ambiente abiótico; mediante procesos como la depredación, el parasitismo, la competencia y la simbiosis, y con su ambiente al desintegrarse y volver a ser parte del ciclo de energía y de nutrientes. Las especies del ecosistema, incluyendo bacterias, hongos, plantas y animales dependen unas de otras. Las relaciones entre las especies y su medio, resultan en el flujo de materia y energía del ecosistema.
+
+El significado del concepto de ecosistema ha evolucionado desde su origen. El término acuñado en los años 1930s, se adscribe a los botánicos ingleses Roy Clapham (1904-1990) y Sir Arthur Tansley (1871-1955). En un principio se aplicó a unidades de diversas escalas espaciales, desde un pedazo de tronco degradado, un charco, una región o la biosfera entera del planeta, siempre y cuando en ellas pudieran existir organismos, ambiente físico e interacciones.  
+
+Más recientemente, se le ha dado un énfasis geográfico y se ha hecho análogo a las formaciones o tipos de vegetación; por ejemplo, matorral, bosque de pinos, pastizal, etc. Esta simplificación ignora el hecho de que los límites de algunos tipos de vegetación son discretos, mientras que los límites de los ecosistemas no lo son. A las zonas de transición entre ecosistemas se les conoce como “ecotonos<p>
+                      
+                      
+         <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                 <h4>Cuidemos al planeta</h4>
+                 <img src="res/android/mdpi.png" width="56" height="46">
+                <h4>Axel Damian Romero 4E</h4>
+            </div>
+          </div>
+          </div>
+          
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Recursos Naturales </h1>
+                  <h1>Se extraen de la tierra</h1>
+                </div>
+                <div data-role="content" align="center">
+                      
+                      
+                      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Recursos</h1>
+       <div>
+       <p>Se Muestran los recursos</p>
+       <br>
+     </div>
+     <div>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image51','','imagenes/recursos-naturales-800.png',1)"><img src="imagenes/recurso.png" width="340" height="427" id="Image51"></a></p>
+       </div>
+    </div>
+   </div>
+   <h3>Que son los recursos Naturales</h3>
+  <p> Los recursos naturales son los elementos y fuerzas de la naturaleza que el hombre puede utilizar y aprovechar. Estos recursos naturales representan, además, fuentes de riqueza para la explotación económica. Por ejemplo, los minerales, el suelo, los animales y las plantas constituyen recursos naturales que el hombre puede utilizar directamente como fuentes para esta explotación. De igual forma, los combustibles, el viento y el agua pueden ser utilizados como recursos naturales para la producción de energía. Pero la mejor utilización de un recurso natural depende del conocimiento que el hombre tenga al respecto, y de las leyes que rigen la conservación de aquel.<p>
+  <h3>Recursos Inagotables</h3>
+  <p>En nuestro planeta encontramos varios tipos de recursos inagotables que permiten la existencia de animales, como también de plantas y de seres humanos (seres vivos) Estos recursos inagotables son:
+
+El Agua
+
+El agua es un elemento vital y muy importante para todos los seres vivos. El agua es un líquido con mayor poder disolvente, posee una gran capacidad calorífica: es decir, sin provocar demasiadas variaciones en su propia temperatura, absorbe bastante calor. Regularmente no sabemos de lo importante que es el agua.
+
+"El agua es un importantísimo componente de los seres vivos y es factor limitante de la productividad de muchas ecosistemas. Los elementos afectados por su ciclo son H y el O de forma directa…".
+</p>
+
+
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+     <a href="https://es.wikipedia.org/wiki/Recurso_natural" target="_self" data-role="button" id="beep">    
+      <h2> informacion Recursos</h2>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="https://www.econlink.com.ar/recursos-inagotables" target="_self" data-role="button" id="vibrar">
+       <h2>Recursos Inagotables </h2>
+       </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="https://es.wikipedia.org/wiki/Recurso_renovable" target="_self" data-role="button" id="vibrar">
+       <h2>Recursos Renovables</h2>
+       </a>
+    </li>
+   </ul>
+   
+                      
+                      
+         <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                 <h4>Cuidemos al planeta</h4>
+                 <img src="res/android/mdpi.png" width="56" height="46">
+                <h4>Axel Damian Romero 4E</h4>
+            </div>
+          </div>
+          </div>
+               
+               
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="b">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Para Mas Informacion</h1>
+                  <h1></h1>
+                </div>
+                <div data-role="content" align="center">
+                      
+                      
+                      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>imagenes</h1>
+       <div>
+       <p>Se Muestra las imagenes</p>
+       <br>
+     </div>
+     <div>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image122','','imagenes/Plantoarbol.png',1)"><img src="imagenes/descargabici.png" width="295" height="171" id="Image122"></a></p>
+       </div>
+    </div>
+   </div>
+   </div><center>
+   <img src="imagenes/tierraenfermaa.png" width="420" height="271"></center>
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+    
+      <a href="index2.html" target="_self" data-role="button" id="vibrar">
+     
+       <h2>Datos del
+        Desarrollador </h2>
+      </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="index4.html" target="_self" data-role="button" id="vibrar">
+       <h2>Otros Temas</h2>
+       </a>
+    </li>
+ </ul>
+                   
+                      
+         <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+           <h4>Cuidemos al planeta</h4>
+                 <img src="res/android/mdpi.png" width="56" height="46">
+                <h4>Axel Damian Romero 4E</h4>
+            </div>
+          </div>
+          </div>
+          
+               
+               
+               
+         
+               
+     
+</body>
+</html>
